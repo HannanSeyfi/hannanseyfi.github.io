@@ -5,7 +5,7 @@ description: Personal website for Hannan Seyfi, a Master's candidate in Artifici
   AI.
 baseurl: ''
 url: ''
-twitter_username: HannanSeyfi
+
 github_username: HannanSeyfi
 theme: minima
 plugins:

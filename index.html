@@ -1,7 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Hannan Seyfi - Portfolio</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; background-color: #f7f7f7; }
+.header { background-color: #2e3a46; color: #fff; padding: 20px 0; text-align: center; }
+.container { max-width: 900px; margin: 20px auto; padding: 20px; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,.1); }
+.profile-img { width: 120px; border-radius: 50%; float: right; margin: 0 0 20px 20px; }
+.section { margin-bottom: 25px; }
+.section h2 { border-bottom: 2px solid #2e3a46; padding-bottom: 5px; margin-bottom: 10px; color: #2e3a46; }
+ul { list-style-type: disc; margin-left: 20px; }
+.contact-info a { color: #2e3a46; text-decoration: none; }
+.footer { text-align: center; padding: 10px; font-size: 0.9em; color: #777; margin-top: 20px; }
+.clearfix::after { content: ''; display: table; clear: both; }
+</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages. I love it!!!</p>
+<div class='header'>
+    <h1>Hannan Seyfi</h1>
+    <p>Master's Candidate in Artificial Intelligence</p>
+</div>
+<div class='container'>
+    <div class='section clearfix'>
+        <img src='data:image/jpeg;base64,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' alt='Hannan Seyfi' class='profile-img' />
+        <p>I am a Master's candidate in Artificial Intelligence at Khatam University (Tehran, Iran), nearing graduation and completing a thesis on unlearning in large language models. I have served as a Teaching Assistant for C++ Programming across three consecutive semesters and taught Artificial Intelligence & Data Science, Advanced Python Programming, Logic Circuits, and hardware-level programming at NODET high schools. A former student of NODET—Allame Helli 1, I bring over a year of industry experience across game design/development and web development. My current interests include trustworthy and efficient AI, with a focus on model editing/unlearning and practical machine learning systems.</p>
+        <div class='contact-info'>
+            <p><strong>Location:</strong> Tehran Province, Iran</p>
+            <p><strong>Email:</strong> <a href='mailto:hannanseyfi0@gmail.com'>hannanseyfi0@gmail.com</a></p>
+            <p><strong>Phone:</strong> (+98) 921-656-7033</p>
+            <p><strong>LinkedIn:</strong> <a href='https://linkedin.com/in/HannanSeyfi' target='_blank'>linkedin.com/in/HannanSeyfi</a></p>
+        </div>
+    </div>
+    <div class='section'>
+        <h2>Education</h2>
+        <ul>
+            <li><strong>M.Sc. in Artificial Intelligence</strong> (Sept 2023 – Present) – Khatam University, Tehran, Iran. GPA: 17.87/20.</li>
+            <li><strong>B.Sc. in Computer Engineering</strong> (Sept 2018 – Aug 2022) – Islamic Azad University, Tehran, Iran. GPA: 17.27/20.</li>
+            <li><strong>Diploma in Mathematics & Physics</strong> (2014 – 2018) – Allameh Helli 1 High School, Tehran, Iran.</li>
+        </ul>
+    </div>
+    <div class='section'>
+        <h2>Research Interests</h2>
+        <ul>
+            <li>Machine Learning</li>
+            <li>Data Science</li>
+            <li>Natural Language Processing</li>
+            <li>Artificial Intelligence</li>
+            <li>Computer Vision</li>
+            <li>Deep Learning</li>
+        </ul>
+    </div>
+    <div class='section'>
+        <h2>Teaching Experience</h2>
+        <ul>
+            <li>Teaching Assistant, C++ Programming – Islamic Azad University (2018–2020)</li>
+            <li>Teacher, Advanced Python Programming – Allame Helli 1 HS (2020–2023)</li>
+            <li>Teacher, Artificial Intelligence & Data Science – Allame Helli 8 HS (2022–2023)</li>
+            <li>Teacher, Logic Circuits – Allame Helli 1 HS (2019–2022)</li>
+            <li>Teacher, Microcontrollers Programming – Allame Helli 1 HS (2021–2022)</li>
+        </ul>
+    </div>
+    <div class='section'>
+        <h2>Work Experience</h2>
+        <ul>
+            <li>Head of Computer Department – Allame Helli 1 HS (2021–2023)</li>
+            <li>Game Developer & Designer – Qolenj Inc. (2019–2020)</li>
+            <li>Backend Developer – CSTCO Company (2020)</li>
+        </ul>
+    </div>
+    <div class='section'>
+        <h2>Projects & Research</h2>
+        <ul>
+            <li><strong>Sibil (Mobile Game)</strong> – Hyper-casual Android game developed with Unity; roles included programming & project management.</li>
+            <li><strong>COVID-19 Detector</strong> – Intelligent symptoms tracker using the CLIPS programming language.</li>
+            <li><strong>Local Ad Blocker</strong> – Implemented Pi-hole on a local machine to block advertisements.</li>
+            <li><strong>Research on Autonomous Driving</strong> – Supervised student research on autopilot driving & autonomous vehicles.</li>
+            <li><strong>Personal VPN Server</strong> – Built a company VPN server using WireGuard.</li>
+        </ul>
+    </div>
+    <div class='section'>
+        <h2>Honors & Awards</h2>
+        <ul>
+            <li>Top student of graduating class (2019), ranked 3rd among 200 students.</li>
+            <li>Top student of 2018 B.Sc. class.</li>
+            <li>Top 2% rank in Iran’s national entrance exam (2018).</li>
+            <li>Trained for International Olympiad in Informatics (2016).</li>
+        </ul>
+    </div>
+    <div class='section'>
+        <h2>Skills</h2>
+        <ul>
+            <li>Machine Learning: TensorFlow, Keras, PyTorch</li>
+            <li>Data Science: NumPy, Pandas, PyTorch</li>
+            <li>Web Development: HTML, CSS, PHP, JavaScript, Apache, MySQL</li>
+            <li>Game Development: Unity Engine</li>
+            <li>Digital Graphics: Photoshop, CorelDraw, Illustrator</li>
+            <li>Microsoft Office Suite</li>
+        </ul>
+    </div>
+    <div class='section'>
+        <h2>Programming Languages</h2>
+        <ul>
+            <li>Python, C++, C#, Java (advanced)</li>
+            <li>PHP, JavaScript, MySQL (intermediate)</li>
+            <li>LATEX (advanced), Verilog (intermediate)</li>
+        </ul>
+    </div>
+    <div class='section'>
+        <h2>Languages</h2>
+        <ul>
+            <li>Persian (Native)</li>
+            <li>English (Fluent – TOEFL 110/120)</li>
+            <li>French (Beginner)</li>
+            <li>Arabic (Basic)</li>
+        </ul>
+    </div>
+    <div class='section'>
+        <h2>Standardized Tests</h2>
+        <ul>
+            <li>GRE: Verbal 149, Quantitative 162, Analytical Writing 4.0</li>
+        </ul>
+    </div>
+    <div class='section'>
+        <h2>Personality Traits</h2>
+        <ul>
+            <li>Strong time management</li>
+            <li>Adaptable & collaborative</li>
+            <li>Works well under pressure</li>
+        </ul>
+    </div>
+</div>
+<div class='footer'>
+    © 2025 Hannan Seyfi. All rights reserved.
+</div>
 </body>
 </html>

@@ -1,0 +1,23 @@
+title: Hannan Seyfi
+email: hannanseyfi0@gmail.com
+description: Personal website for Hannan Seyfi, a Master's candidate in Artificial
+  Intelligence at Khatam University (Tehran, Iran) focusing on trustworthy and efficient
+  AI.
+baseurl: ''
+url: ''
+twitter_username: HannanSeyfi
+github_username: HannanSeyfi
+theme: minima
+plugins:
+- jekyll-feed
+exclude:
+- .sass-cache/
+- .jekyll-cache/
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/

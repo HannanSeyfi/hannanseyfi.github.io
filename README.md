@@ -34,4 +34,4 @@ The October 2026 website content is based on the updated CV provided by Hannan S
 
 The existing `/projects/`, `/resume/`, `/Hannan_Seyfi_CV.pdf`, and `/resume.pdf` URLs remain available. `/resume/` now provides an accessible HTML CV with view and download links.
 
-Research outcomes are reported as thesis results, not as publications. The MSc defense remains pending, expected in October 2026, until the source information is updated.
+Research outcomes are reported as thesis results, not as publications. MSc graduation is expected in October 2026.

@@ -1,0 +1,8 @@
+[
+  {"slug":"home", "path":"/", "title":"Hannan Seyfi | LLM Unlearning & Trustworthy AI", "description":"Hannan Seyfi is an MSc researcher at Khatam University working on machine unlearning, model editing, and trustworthy language models. Seeking PhD opportunities."},
+  {"slug":"research", "path":"/research/", "title":"Research | Hannan Seyfi", "description":"Research on machine unlearning in large language models, forgetting–utility trade-offs, parameter-efficient adaptation, and the effect of language on LLM responses."},
+  {"slug":"projects", "path":"/projects/", "title":"Software Projects | Hannan Seyfi", "description":"Selected software projects by Hannan Seyfi: VidFetch for Android, RemoteDeck for Windows, and the Sibil Unity game."},
+  {"slug":"experience", "path":"/experience/", "title":"Experience & Education | Hannan Seyfi", "description":"Hannan Seyfi's education, teaching and academic leadership, industry experience, presentations, and technical skills."},
+  {"slug":"resume", "path":"/resume/", "title":"Curriculum Vitae | Hannan Seyfi", "description":"Hannan Seyfi's academic CV: education, LLM research, software projects, teaching, honors, language scores, and references. View or download the updated PDF."},
+  {"slug":"404", "path":"/404.html", "title":"Page Not Found | Hannan Seyfi", "description":"Find Hannan Seyfi's research, projects, experience, and curriculum vitae."}
+]

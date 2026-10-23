@@ -17,10 +17,10 @@ def build():
     layout = Template((SOURCE / "layout.html").read_text(encoding="utf-8"))
     person = {"@context": "https://schema.org", "@type": "Person", "name": "Hannan Seyfi",
               "url": URL + "/", "image": URL + "/picture.jpg",
-              "email": "mailto:hannanseyfi0@gmail.com", "jobTitle": "MSc researcher",
+              "email": "mailto:hannanseyfi0@gmail.com", "jobTitle": "AI researcher",
               "affiliation": {"@type": "CollegeOrUniversity", "name": "Khatam University"},
               "sameAs": ["https://github.com/HannanSeyfi", "https://www.linkedin.com/in/HannanSeyfi"],
-              "knowsAbout": ["Machine unlearning", "Model editing", "Large language models", "Trustworthy AI"]}
+              "knowsAbout": ["Machine unlearning", "Model editing", "Large language models", "Trustworthy AI", "Anchoring effects"]}
     for page in pages:
         slug = page["slug"]
         navigation = "\n".join(

@@ -30,8 +30,8 @@ Open `http://127.0.0.1:8000/`. Check the homepage and the research, projects, ex
 
 ## CV updates
 
-The October 2026 website content is based on the updated CV provided by Hannan Seyfi. Replace `Hannan_Seyfi_CV.pdf` and the legacy `resume.pdf` with the same new PDF, update the HTML content, and revise the visible update date in the shared layout and CV introduction.
+The website was synchronized with the updated CV provided by Hannan Seyfi on 23 October 2026. Replace `Hannan_Seyfi_CV.pdf` and the legacy `resume.pdf` with the same new PDF, update the HTML content, and revise the visible update date in the shared layout and CV introduction.
 
 The existing `/projects/`, `/resume/`, `/Hannan_Seyfi_CV.pdf`, and `/resume.pdf` URLs remain available. `/resume/` now provides an accessible HTML CV with view and download links.
 
-Research outcomes are reported as thesis results, not as publications. MSc graduation is expected in October 2026.
+Research outcomes are reported as thesis results, not as publications. The MSc was completed in October 2026. The research and CV pages include the ongoing project on anchoring effects in large language models.

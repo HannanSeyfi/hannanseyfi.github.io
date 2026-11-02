@@ -10,6 +10,9 @@ The site uses static HTML, CSS, and a small progressive-enhancement script. No R
 - Page titles, descriptions, and URLs: `site_src/pages.json`
 - Shared navigation, metadata, and footer: `site_src/layout.html`
 - Styles and mobile menu: `assets/site.css` and `assets/site.js`
+- Appearance initialization and menu: `assets/theme.js` (loaded before the stylesheet to prevent a theme flash)
+
+The header appearance button offers System, Light, and Dark. It defaults to the device's appearance, remembers an explicit choice in browser storage, and keeps open tabs in sync. System mode follows device changes immediately. Printing uses light colors regardless of the screen theme.
 
 After changing source content or the layout, run:
 

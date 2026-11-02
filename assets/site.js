@@ -9,6 +9,11 @@
     button.querySelector('span').textContent = open ? '−' : '+';
   };
   button.addEventListener('click', () => setOpen(button.getAttribute('aria-expanded') !== 'true'));
+  const appearanceButton = document.querySelector('.appearance-toggle');
+  appearanceButton?.addEventListener('click', () => setOpen(false));
+  appearanceButton?.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp') setOpen(false);
+  });
   navigation.addEventListener('click', (event) => {
     if (event.target.closest('a')) setOpen(false);
   });
